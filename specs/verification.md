@@ -76,9 +76,9 @@ Date: 2026-09-09.
 - Services restarted and proxied health returned ready.
 - No physical-webcam accuracy validation was performed. The reported age-14 mismatch cannot be attributed conclusively without the relevant camera frame; capture conditions and existing model error remain possible causes.
 
-## Goobo Labs brand update
+## Somast brand update
 
-- Visited https://www.goobolabs.so/en and inspected its rendered layout, computed CSS, official SVG logo and font assets.
+- Visited https://www.somast.so and inspected its rendered layout, computed CSS, official SVG logo and font assets.
 - Applied #3ACC69 mint, #0C0C0C ink, #FAFAFA background, Space Grotesk headings, Manrope body text, pill controls, rounded white cards and a subtle dot pattern.
 - Official logo and both font files are served locally; browser inspection confirmed they loaded.
 - Production build passed. All 9 browser tests passed in 27.8 seconds, including camera scanning, cancel/retry, mobile overflow and real Flask/model upload integration.
