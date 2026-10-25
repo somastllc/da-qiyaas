@@ -2,7 +2,7 @@
 
 Status: published on 2026-09-25. All eight implementation issues and the tracking issue are open on GitHub. Publication succeeded using the existing Git authentication after the connector returned HTTP 403.
 
-Repository: https://github.com/goobolabs/da-qiyaas
+Repository: https://github.com/somastllc/da-qiyaas
 
 The user will implement these issues. Python/Flask remains the backend; Rust handles processing, inference and training. The issue bodies below accompany the [migration specification](rust-migration.md).
 
@@ -10,15 +10,15 @@ The user will implement these issues. Python/Flask remains the backend; Rust han
 
 | Phase | Issue | Dependencies |
 | --- | --- | --- |
-| Tracking | [#12 Migration overview](https://github.com/goobolabs/da-qiyaas/issues/12) | All eight implementation issues |
-| R0 | [#4 Python contracts and parity baselines](https://github.com/goobolabs/da-qiyaas/issues/4) | None |
-| R0 | [#5 Windows Rust/native toolchain](https://github.com/goobolabs/da-qiyaas/issues/5) | None |
-| R1 | [#6 Shared image processing](https://github.com/goobolabs/da-qiyaas/issues/6) | #4, #5 |
-| R2 | [#7 Model import and inference parity](https://github.com/goobolabs/da-qiyaas/issues/7) | #4, #5, #6 |
-| R3 | [#8 Dataset preparation and caches](https://github.com/goobolabs/da-qiyaas/issues/8) | #4, #6 |
-| R3 | [#9 Rust training and evaluation](https://github.com/goobolabs/da-qiyaas/issues/9) | #7, #8 |
-| R4 | [#10 Flask integration](https://github.com/goobolabs/da-qiyaas/issues/10) | #7 |
-| R5 | [#11 Verification and engine cutover](https://github.com/goobolabs/da-qiyaas/issues/11) | #9, #10 |
+| Tracking | [#12 Migration overview](https://github.com/somastllc/da-qiyaas/issues/12) | All eight implementation issues |
+| R0 | [#4 Python contracts and parity baselines](https://github.com/somastllc/da-qiyaas/issues/4) | None |
+| R0 | [#5 Windows Rust/native toolchain](https://github.com/somastllc/da-qiyaas/issues/5) | None |
+| R1 | [#6 Shared image processing](https://github.com/somastllc/da-qiyaas/issues/6) | #4, #5 |
+| R2 | [#7 Model import and inference parity](https://github.com/somastllc/da-qiyaas/issues/7) | #4, #5, #6 |
+| R3 | [#8 Dataset preparation and caches](https://github.com/somastllc/da-qiyaas/issues/8) | #4, #6 |
+| R3 | [#9 Rust training and evaluation](https://github.com/somastllc/da-qiyaas/issues/9) | #7, #8 |
+| R4 | [#10 Flask integration](https://github.com/somastllc/da-qiyaas/issues/10) | #7 |
+| R5 | [#11 Verification and engine cutover](https://github.com/somastllc/da-qiyaas/issues/11) | #9, #10 |
 
 ## Tracking issue
 
@@ -37,7 +37,7 @@ The eight implementation issues are published in the index above. The local link
 - [ ] [[Rust migration R4] Integrate the Rust predictor into the Python Flask backend](#issue-7-flask)
 - [ ] [[Rust migration R5] Verify performance, package the extension and document engine cutover](#issue-8-cutover)
 
-Existing issues remain separate: [#1 webcam accuracy](https://github.com/goobolabs/da-qiyaas/issues/1), [#2 YuNet retraining](https://github.com/goobolabs/da-qiyaas/issues/2), [#3 Somali speech review](https://github.com/goobolabs/da-qiyaas/issues/3). Coordinate the new training issue with #2.
+Existing issues remain separate: [#1 webcam accuracy](https://github.com/somastllc/da-qiyaas/issues/1), [#2 YuNet retraining](https://github.com/somastllc/da-qiyaas/issues/2), [#3 Somali speech review](https://github.com/somastllc/da-qiyaas/issues/3). Coordinate the new training issue with #2.
 
 ## Issue 1: baseline
 
