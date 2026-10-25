@@ -6,7 +6,7 @@ Status: version 1 implemented and verified following user authorization on 2026-
 
 Detailed dependencies and acceptance gates: [rust-migration.md](rust-migration.md). Implementation proceeds R0 through R5 in dependency order, with a separate tested PR for each issue.
 
-GitHub issues are published: [tracking issue #12](https://github.com/goobolabs/da-qiyaas/issues/12) links the eight implementation issues (#4–#11) for the user to implement. See [migration-issues.md](migration-issues.md) for their bodies and dependency order. All nine issues were verified open on 2026-09-25.
+GitHub issues are published: [tracking issue #12](https://github.com/somastllc/da-qiyaas/issues/12) links the eight implementation issues (#4–#11) for the user to implement. See [migration-issues.md](migration-issues.md) for their bodies and dependency order. All nine issues were verified open on 2026-09-25.
 
 - [x] Inspect Python processing/training, existing product routes and recorded evaluation evidence.
 - [x] Document target stack, checkpoint transition, parity gates, training requirements and rollback.
@@ -62,7 +62,7 @@ These follow-ups do not change the completed implementation scope; physical-came
 - [x] Select candidate on validation, evaluate existing test split and document subgroup limitations.
 - [x] Promote improved candidate and reload it in Flask.
 - [x] Add capture-quality indicators with actual quality states and reset behavior.
-- [x] Add persistent dark/light mode matching Goobo Labs branding.
+- [x] Add persistent dark/light mode matching Somast branding.
 - [x] Verify production build, backend tests, browser flows and desktop/mobile dark views.
 - [ ] Future: obtain a separate labeled camera dataset to measure real-webcam accuracy.
 

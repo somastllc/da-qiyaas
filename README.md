@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.goobolabs.so/en"><img src="frontend/public/brand/goobo-logo.svg" width="160" alt="Goobo Labs" /></a>
+  <a href="https://www.somast.so"><img src="frontend/public/brand/somast-wordmark-teal.svg" width="160" alt="Somast" /></a>
 </p>
 
 <h1 align="center">Da’qiyaas</h1>
@@ -16,7 +16,7 @@
   <a href="#tests">Tests</a>
 </p>
 
-Da’qiyaas finds a face in an image and estimates its age. You can upload a portrait or open the camera for an automatic scan. The camera waits for a clear, steady face, collects five estimates, displays their median, and stops. The interface follows the Goobo Labs brand and supports light and dark themes.
+Da’qiyaas finds a face in an image and estimates its age. You can upload a portrait or open the camera for an automatic scan. The camera waits for a clear, steady face, collects five estimates, displays their median, and stops. The interface follows the Somast brand and supports light and dark themes.
 
 **The output is an estimate, not a verified age.** The current model has a test mean absolute error (MAE) of **5.69 years** on full portraits and **6.07 years** on detected-face crops from this project's UTKFace test split. Its accuracy on physical-webcam images has not been measured.
 
@@ -321,7 +321,7 @@ The recording script uses headless Edge, uses the supplied portrait, exercises u
 age-prediction-system/
 ├── frontend/
 │   ├── app/                 Interface, scan state, quality indicators and theme
-│   ├── public/brand/        Local Goobo Labs logo and fonts
+│   ├── public/brand/        Local Somast logo and fonts
 │   ├── scripts/             Browser demo recorder
 │   └── tests/               Playwright flows and real-model integration
 ├── backend/
@@ -382,7 +382,7 @@ Voice orchestration is tested with simulated browser voices and provider respons
 
 ## License
 
-Da’qiyaas source code is licensed under the [MIT License](LICENSE), copyright © 2026 Goobo Labs.
+Da’qiyaas source code is licensed under the [MIT License](LICENSE), copyright © 2026 Somast.
 
 [UTKFace](https://github.com/aicip/UTKFace) is available for **non-commercial research purposes only** and is subject to its own terms. The MIT license does not relicense the dataset or grant commercial-use permission for the trained model. Dataset images and model weights are excluded from this repository.
 
