@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.somast.so"><img src="frontend/public/brand/goobo-logo.svg" width="160" alt="Somast" /></a>
+  <a href="https://www.somast.so"><img src="frontend/public/brand/somast-wordmark-teal.svg" width="160" alt="Somast" /></a>
 </p>
 
 <h1 align="center">Da’qiyaas</h1>
