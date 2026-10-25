@@ -19,12 +19,17 @@ button { cursor: pointer; }
 button:disabled { opacity: .55; cursor: wait; }
 button:focus-visible, a:focus-visible, label:focus-within { outline: 3px solid var(--green-text); outline-offset: 4px; }
 main { max-width: 1280px; margin: auto; padding: 0 40px; }
-header { min-height: 100px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.brand-group, header nav { display: flex; align-items: center; gap: 28px; }
-.brand { display: flex; flex-shrink: 0; }
-.brand img { width: 120px; height: 34px; }
-.product-name { font: 600 18px var(--heading); padding-left: 24px; border-left: 1px solid var(--line); }
-.product-name span { display: block; font: 11px var(--body); color: var(--muted); margin-top: 2px; }
+header { min-height: 112px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 0 14px; }
+.brand-group, header nav { display: flex; align-items: center; }
+header nav { gap: 28px; }
+.brand-group { flex-shrink: 0; gap: 32px; }
+.brand { position: relative; flex-shrink: 0; width: 148px; height: 42px; padding: 4px 0 6px; }
+.brand img { position: absolute; left: 0; top: 50%; transform: translateY(-50%); display: block; width: auto; height: 34px; max-width: 148px; object-fit: contain; object-position: left center; }
+.brand .brand-logo-dark { display: none; }
+html[data-theme='dark'] .brand .brand-logo-light { display: none; }
+html[data-theme='dark'] .brand .brand-logo-dark { display: block; }
+.product-name { display: flex; flex-direction: column; justify-content: center; font: 600 18px/1.2 var(--heading); letter-spacing: -0.2px; margin: 0; padding: 6px 0 4px 32px; border-left: 1px solid var(--line); }
+.product-name span { display: block; font: 11px/1.4 var(--body); color: var(--muted); margin-top: 5px; letter-spacing: 0.01em; }
 .site-link { font-size: 13px; font-weight: 600; color: #555; }
 .site-link:hover { color: var(--green-text); }
 .site-link span { margin-left: 6px; }
@@ -110,11 +115,12 @@ footer a:hover { color: var(--green-text); }
 }
 @media (max-width: 640px) {
   main { padding: 0 18px; }
-  header { min-height: 86px; gap: 12px; }
-  .brand-group { gap: 15px; }
-  .brand img { width: 102px; height: 29px; }
-  .product-name { padding-left: 15px; font-size: 16px; }
-  .product-name span { font-size: 9px; }
+  header { min-height: 92px; gap: 12px; padding: 14px 0 10px; }
+  .brand-group { gap: 22px; }
+  .brand { width: 124px; height: 36px; padding: 3px 0 5px; }
+  .brand img { height: 28px; max-width: 124px; }
+  .product-name { font-size: 16px; padding: 4px 0 2px 22px; }
+  .product-name span { font-size: 9px; margin-top: 4px; }
   .nav-cta { padding: 10px 12px; font-size: 10px; }
   .nav-cta span { display: none; }
   .intro { grid-template-columns: 1fr; gap: 21px; padding: 29px 0 30px; }

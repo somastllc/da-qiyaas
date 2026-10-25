@@ -76,4 +76,4 @@ Camera requests use up to 1280-pixel-wide frames at JPEG quality 0.95. Uploaded-
 - Run three epochs. Select using validation MAE; promote only if validation MAE improves by at least 0.1 years. Preserve baseline checkpoint and report in models/baseline/.
 - Evaluate the selected candidate on the existing test split only after the promotion decision. This is not a newly collected external holdout, and cannot establish physical-camera accuracy.
 - Add four camera indicators: measured lighting, face size and sharpness from Flask, plus frontend bounding-box stability. Show Waiting before measurements or after cancellation; do not present confidence percentages.
-- Add a Goobo Labs dark theme. Default to the saved preference or operating-system preference; persist explicit selection locally. Camera images and age results are not persisted.
+- Add a Somast dark theme. Default to the saved preference or operating-system preference; persist explicit selection locally. Camera images and age results are not persisted.
