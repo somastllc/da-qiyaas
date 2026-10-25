@@ -43,7 +43,7 @@ Status: the Python application is implemented. Rust migration implementation was
 
 - Original baseline: frozen MobileNetV3 Small and Haar detection. The latest recorded active model is MobileNetV3 Large with a regression head; serving uses shared OpenCV YuNet detection and a 15 percent crop margin. Migration must verify the active artifact before conversion.
 - Original baseline test MAE was 7.70 years. The recorded Large model has 5.687 years full-portrait test MAE; the subsequent YuNet pipeline has 5.681 years crop MAE on 3,465 detected test faces. These are different evaluation views. See `docs/model-large-comparison.json` and `docs/model-detector-comparison.json`. Physical-camera accuracy remains unmeasured.
-- Responsive English UI following the Goobo Labs brand: mint #3ACC69, black text, Space Grotesk headings, Manrope body text, official logo, camera/upload controls and a stable result card.
+- Responsive English UI following the Somast brand: mint #3ACC69, black text, Space Grotesk headings, Manrope body text, official logo, camera/upload controls and a stable result card.
 - Manual physical-webcam validation remains for the user; automated tests use a synthetic video stream.
 
 

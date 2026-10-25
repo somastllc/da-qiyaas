@@ -1,6 +1,6 @@
 # Python reference for the Rust migration
 
-Issue: [#4](https://github.com/goobolabs/da-qiyaas/issues/4). This recorder freezes the current Python behavior before Rust implementation. Flask remains the backend throughout the migration.
+Issue: [#4](https://github.com/somastllc/da-qiyaas/issues/4). This recorder freezes the current Python behavior before Rust implementation. Flask remains the backend throughout the migration.
 
 ## Capture and verify
 
