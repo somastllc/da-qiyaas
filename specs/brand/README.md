@@ -1,6 +1,6 @@
-# Goobo Labs visual reference
+# Somast visual reference
 
-Source visited: https://www.goobolabs.so/en on 2026-09-09, using headless Edge after direct HTTP fetches failed.
+Source visited: https://www.somast.so on 2026-09-09, using headless Edge after direct HTTP fetches failed.
 
 Observed styles from computed browser CSS:
 
@@ -8,7 +8,7 @@ Observed styles from computed browser CSS:
 - Green heading accent on the source: #1F9A48.
 - Headings: Space Grotesk, bold; body and controls: Manrope.
 - Pill-shaped calls to action, white cards with neutral borders, generous rounded corners, subtle dotted backgrounds.
-- Official logo: https://www.goobolabs.so/logo.svg.
+- Official logo:
 
 Implementation uses these visual elements for Da’qiyaas. Content and navigation are specific to the age-estimation app; the source site's research statistics, authentication, and programs are not part of this application.
 
